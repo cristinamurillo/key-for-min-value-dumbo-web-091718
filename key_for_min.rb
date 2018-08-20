@@ -9,7 +9,14 @@ def key_for_min_value(name_hash)
       if value < min_value 
         min_value=value 
         key_name = name 
+<<<<<<< HEAD
      end 
     end
   name_hash.empty? ? nil : key_name
+=======
+        binding.pry 
+     end 
+    end
+  name_hash[key_name]
+>>>>>>> 1122e0de5741148027b88bc54b25f6413faa7e0a
 end
